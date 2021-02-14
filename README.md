@@ -1,11 +1,5 @@
-#---------------------------------------------------------
-# Author: NidoBr
-# E-mail: < coqecoisa@gmail.com >
-# Github: < https://github.com/NIDObr >
-# Licença: BSD 3-Clause "New" or "Revised" License
-# OPLTOOL:
-#	Tool to assist logging
-#---------------------------------------------------------
+# LOGTOOL:
+ Tool to assist logging
 
 Initially we must load the package:
  package require logtool 1.0
