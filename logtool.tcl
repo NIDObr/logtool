@@ -33,7 +33,7 @@ proc logtool:log_mes {  menssage name_process { tag "INFO" } { log_path "default
 	# Sets the time for the log
 	set dat_time [ clock format [ clock seconds ] -format {%b %d %H:%M:%S} ]
 	# Log message
-	puts $log_file "$dat_time [ info hostname ] $name_process: $menssage $tag"
+	puts $log_file "$dat_time [ info hostname ] $name_process: $tag - $menssage"
 	# Close log channel
 	close $log_file
 }
